@@ -101,35 +101,17 @@ PRODUCT_PACKAGES += \
     camera.device@3.3-impl.exynos9810 \
     camera.device@3.5-impl.exynos9810 \
     gatekeeper.exynos9810 \
-    gralloc.exynos9810 \
-    hwcomposer.exynos9810 \
     power.exynos9810 \
-    libExynosHWCService \
-    libExynosOMX_Core \
-    libExynosOMX_Resourcemanager \
-    libGrallocWrapper \
     libIDDQD_core \
     libIDDQD_interface \
     libMcClient \
     libOpenCv.camera.samsung \
     libSEF.quram \
-    libacryl \
-    libacryl_plugin_slsi_hdr10 \
     libbauthserver \
     libbauthtzcommon \
-    libcsc \
     libegis_fp_normal_sensor_test \
-    libexynosdisplay \
-    libexynosgscaler \
-    libexynosgraphicbuffer \
-    libexynosscaler \
-    libexynosutils \
-    libexynosv4l2 \
     libfloatingfeature \
     libgf_in_system_lib \
-    libgiantmscl \
-    libhwjpeg \
-    libion_exynos \
     libiva_android_hal \
     libqfp_sensortest \
     libsecaudioinfo \
@@ -137,26 +119,12 @@ PRODUCT_PACKAGES += \
     libsecril-client.exynos9810 \
     libsemnativecarrierfeature \
     libsensorlistener \
-    libstagefrighthw \
     libsynaFpSensorTestNwd \
     libuniapi \
     libuniplugin \
     libvkmanager_vendor \
     libvxu \
     libwrappergps \
-    libOMX.Exynos.AVC.Decoder \
-    libOMX.Exynos.AVC.Encoder \
-    libOMX.Exynos.AVC.WFD.Encoder \
-    libOMX.Exynos.HEVC.Decoder \
-    libOMX.Exynos.HEVC.Encoder \
-    libOMX.Exynos.HEVC.WFD.Encoder \
-    libOMX.Exynos.MPEG4.Decoder \
-    libOMX.Exynos.MPEG4.Encoder \
-    libOMX.Exynos.VP8.Decoder \
-    libOMX.Exynos.VP8.Encoder \
-    libOMX.Exynos.VP9.Decoder \
-    libOMX.Exynos.VP9.Encoder \
-    libOMX.Exynos.WMV.Decoder \
     sensors.grip \
     sensors.sensorhub \
     thermal.exynos9810 \
@@ -171,7 +139,6 @@ PRODUCT_PACKAGES += \
     libcodecdspdump \
     libdatamod \
     libhfd \
-    libstagefright_omx_vendor \
     libaudioroute.exynos9810 \
     libtinyalsa.exynos9810 \
     android.hardware.gnss@2.0-impl \
@@ -181,7 +148,6 @@ PRODUCT_PACKAGES += \
     libbt-vendor.exynos9810 \
     libengmode_client \
     libkeymaster2_mdfpp \
-    libmpp \
     libril-samsung \
     libsec-ril \
     libsec-ril-dsds \
@@ -201,11 +167,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.gnss@2.0-service \
     mcDriverDaemon \
     vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service
-
-# HWComposer
-PRODUCT_PACKAGES += \
-    libdrm.exynos9810 \
-    libdrmresource.exynos9810
 
 # Dolby Atmos
 ifeq ($(TARGET_HAVE_SAMSUNG_DAP),true)
