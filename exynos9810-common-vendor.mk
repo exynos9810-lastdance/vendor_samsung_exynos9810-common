@@ -107,6 +107,7 @@ PRODUCT_PACKAGES += \
     libMcClient \
     libOpenCv.camera.samsung \
     libSEF.quram \
+    libcrypto-compat \
     libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
