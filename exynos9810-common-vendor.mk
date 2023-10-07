@@ -111,6 +111,8 @@ PRODUCT_PACKAGES += \
     libfloatingfeature \
     libgf_in_system_lib \
     libiva_android_hal \
+    libprotobuf-cpp-lite.exynos9810 \
+    libprotobuf-cpp-full.exynos9810 \
     libqfp_sensortest \
     libsecaudioinfo \
     libsecnativefeature \

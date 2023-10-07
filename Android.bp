@@ -6,6 +6,48 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "libprotobuf-cpp-lite.exynos9810",
+	stem: "libprotobuf-cpp-lite",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libprotobuf-cpp-lite.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libprotobuf-cpp-lite.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libprotobuf-cpp-full.exynos9810",
+	stem: "libprotobuf-cpp-full",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libprotobuf-cpp-full.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libprotobuf-cpp-full.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libGLES_mali",
 	owner: "samsung",
 	strip: {
