@@ -97,9 +97,6 @@ PRODUCT_PACKAGES += \
     libGLES_mali \
     vulkan.mali \
     libgpudataproducer \
-    camera.device@1.0-impl.exynos9810 \
-    camera.device@3.3-impl.exynos9810 \
-    camera.device@3.5-impl.exynos9810 \
     gatekeeper.exynos9810 \
     power.exynos9810 \
     libIDDQD_core \
