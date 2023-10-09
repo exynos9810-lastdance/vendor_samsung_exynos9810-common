@@ -94,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/exynos9810-common/proprietary/vendor/openvx/xml/_hifi_still_schedule.xml:$(TARGET_COPY_OUT_VENDOR)/openvx/xml/_hifi_still_schedule.xml
 
 PRODUCT_PACKAGES += \
+    android.frameworks.sensorservice@1.0.exynos9810 \
     libGLES_mali \
     vulkan.mali \
     libgpudataproducer \

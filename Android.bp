@@ -6,6 +6,27 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+	name: "android.frameworks.sensorservice@1.0.exynos9810",
+	stem: "android.frameworks.sensorservice@1.0",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/android.frameworks.sensorservice@1.0.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/android.frameworks.sensorservice@1.0.so"],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libprotobuf-cpp-lite.exynos9810",
 	stem: "libprotobuf-cpp-lite",
 	owner: "samsung",
