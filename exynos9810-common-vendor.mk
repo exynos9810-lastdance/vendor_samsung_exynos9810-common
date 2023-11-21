@@ -95,6 +95,21 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.exynos9810 \
+    android.hardware.camera.common@1.0.exynos9810 \
+    android.hardware.camera.device@1.0.exynos9810 \
+    android.hardware.camera.device@3.2.exynos9810 \
+    android.hardware.camera.device@3.3.exynos9810 \
+    android.hardware.camera.device@3.4.exynos9810 \
+    android.hardware.camera.device@3.5.exynos9810 \
+    android.hardware.camera.provider@2.4-legacy.exynos9810 \
+    android.hardware.camera.provider@2.4.exynos9810 \
+    android.hardware.camera.provider@2.5-legacy.exynos9810 \
+    android.hardware.camera.provider@2.5.exynos9810 \
+    camera.device@1.0-impl.exynos9810 \
+    camera.device@3.2-impl.exynos9810 \
+    camera.device@3.3-impl.exynos9810 \
+    camera.device@3.4-impl.exynos9810 \
+    camera.device@3.5-impl.exynos9810 \
     libGLES_mali \
     vulkan.mali \
     libgpudataproducer \
