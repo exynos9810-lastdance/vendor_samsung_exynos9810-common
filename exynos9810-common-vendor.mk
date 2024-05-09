@@ -151,6 +151,7 @@ PRODUCT_PACKAGES += \
     libaudio-ril \
     libaudiodebugfs \
     libcnn \
+    libhwjpeg \
     libcodecdspdump \
     libdatamod \
     libhfd \
